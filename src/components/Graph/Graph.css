@@ -1,0 +1,7 @@
+.graph {
+  height: 300px;
+  width: 100%;
+  border: 2px #E5EFFA solid;
+  overflow-y: scroll;
+  padding: 10px;
+}

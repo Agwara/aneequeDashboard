@@ -1,0 +1,36 @@
+.product-item {
+  margin-top: 20px;
+  height: 50px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+
+  align-self: center;
+}
+
+.product-item p {
+  padding-left: 10px;
+}
+
+.product-name__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.cell--main-text {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--dark-text-colour);
+}
+
+.cell--primary-text {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--light-text-colour);
+}
+
+.cell--price {
+  font-size: 12px;
+  font-weight: 700;
+  color: #65B399;
+}

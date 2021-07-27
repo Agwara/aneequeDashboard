@@ -1,0 +1,16 @@
+.app-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 4.5fr;
+  grid-row: 1fr;
+
+  padding: 40px 30px;
+}
+
+.primary-title {
+  color: var(--dark-text-colour);
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
